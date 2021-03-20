@@ -26,7 +26,7 @@ export default function Post() {
     },[]);
 
     return (
-        <main className="bg-green-100 min-h-screen p-12">
+        <main className="bg-green-150 min-h-screen p-12">
             <section className="container mx-auto">
                 <h1 className="text-5xl flex justify-center cursive">Blog Posts Page</h1>
                 <h2 className="text-lg text-gray-600 flex justify-center mb-12">Welcome to my Blog Page</h2>
@@ -43,7 +43,7 @@ export default function Post() {
 
                             </span>
                             <span className="block relative h-full flex justify-end items-end pr-4 pb-4"></span>
-                            <h3 className="text-gray-800 text-lg font-blog px-3 py-4 bg-red-700 text-red-100 bg-opacity-75 rounded">
+                            <h3 className="text-gray-800 text-lg font-bold px-3 py-4 bg-red-700 text-red-100 bg-opacity-75 rounded">
                                 {post.title}
                             </h3>
                         
