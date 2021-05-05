@@ -19,8 +19,7 @@ export default function Post() {
                     alt
               
                 }
-            }`
-            )
+            }` )
             .then((data) =>setPost(data))
             .catch(console.error);
     },[]);
